@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaFollow", "InstaFollow\InstaFollow.csproj", "{3F296337-5AD3-4F35-B41D-FAEEC4CB69FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstaSharp", "..\..\InstaSharp-master\src\InstaSharp\InstaSharp.csproj", "{9394F5B6-691A-4814-91DE-5A6793E8F9A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaFollowModels.Core", "InstaFollowModels.Core\InstaFollowModels.Core.csproj", "{D32A6A79-8F22-450A-B019-C5B59E7FEF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaFollow.Migrations", "InstaFollow.Migrations\InstaFollow.Migrations.csproj", "{A84DCECC-B2AE-42DB-93E2-24EDCD4C9D60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F296337-5AD3-4F35-B41D-FAEEC4CB69FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F296337-5AD3-4F35-B41D-FAEEC4CB69FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F296337-5AD3-4F35-B41D-FAEEC4CB69FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3F296337-5AD3-4F35-B41D-FAEEC4CB69FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F296337-5AD3-4F35-B41D-FAEEC4CB69FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F296337-5AD3-4F35-B41D-FAEEC4CB69FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9394F5B6-691A-4814-91DE-5A6793E8F9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9394F5B6-691A-4814-91DE-5A6793E8F9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9394F5B6-691A-4814-91DE-5A6793E8F9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9394F5B6-691A-4814-91DE-5A6793E8F9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32A6A79-8F22-450A-B019-C5B59E7FEF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32A6A79-8F22-450A-B019-C5B59E7FEF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32A6A79-8F22-450A-B019-C5B59E7FEF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32A6A79-8F22-450A-B019-C5B59E7FEF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84DCECC-B2AE-42DB-93E2-24EDCD4C9D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84DCECC-B2AE-42DB-93E2-24EDCD4C9D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84DCECC-B2AE-42DB-93E2-24EDCD4C9D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84DCECC-B2AE-42DB-93E2-24EDCD4C9D60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

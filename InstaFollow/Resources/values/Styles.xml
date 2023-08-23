@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="ActivityDialog" parent="@android:style/Theme.Dialog">
+    <item name="android:layout_width">wrap_content</item>
+
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowNoTitle">true</item>
+
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowBackground">@drawable/ninepatch_border_blue</item>
+  </style>
+</resources>

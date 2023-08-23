@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customborderaccounts"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/customListViewAccounts">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Refractored.Controls.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:focusable="false"
+                android:id="@+id/imgAccountProfilePicture"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0.0dp"
+                android:src="@drawable/flat_user_avatar"
+                app:civ_border_width="1dp"
+                app:civ_border_color="#249ffd" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2.0">
+                <TextView
+                    android:id="@+id/txtAccountUsername"
+                    android:text="MR.KAMIL94"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginBottom="3dp" />
+                <TextView
+                    android:id="@+id/txtAccountFullName"
+                    android:text="Kamil"
+                    android:textSize="13dp"
+                    android:textColor="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginTop="3dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:layout_weight="0.5">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:background="@drawable/customdeletebutton"
+                    android:id="@+id/btnAccountDelete" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
