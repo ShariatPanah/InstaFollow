@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="Hello">Hello World, Click Me!</string>
-  <string name="ApplicationName">InstaFollow</string>
+  <string name="ApplicationName"></string>
   <string name="InstaClientId"></string>
   <string name="InstaRedirectURI">http://localhost:11624/Home/Authentication</string>
   <string name="InstaClientSecret"></string>
