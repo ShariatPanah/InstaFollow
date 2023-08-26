@@ -12,6 +12,8 @@ Accounts:
 Following:
 ![Following List](https://github.com/ShariatPanah/InstaFollow/assets/32509267/37f3674e-d995-4978-9238-b558a55bd405)
 
+
 Mini Profile:
+
 ![MiniProfile](https://github.com/ShariatPanah/InstaFollow/assets/32509267/07f38f00-8592-4103-8fba-a77fffee427c)
 
